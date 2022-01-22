@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@500&display=swap');
+
+--Poppins
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: var(--Poppins);
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0, 0.4), url("banner.jpg")); */
+    background-image: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0, 0.4)), url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+ .form-box
+{
+    width: 400px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+}
+
+
+ .btn_box
+{
+    width: 220px;
+    margin: 35px auto;
+    /* position: relative; */
+    box-shadow: 0 0 20px 9px #e9dd93;
+    border-radius: 30px;
+}
+
+.toggle-btn
+{
+    padding: 10px 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    align-items: center;
+    outline: none;
+    position: relative;
+
+} 
+
+#google
+{
+    width: 25px;
+    height: 25px;
+    margin-left: -115px;
+}
+
+#facebook
+{
+    width: 30px;
+    height: 30px;
+    margin-right: -115px;
+    margin-top: -26px;
+}
+
+/* #google, #facebook
+{
+    box-shadow: 0 0 20px 9px #e9dd93;
+} */
+
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.wrapper
+{   
+    width: 390px;
+    height: 69px;
+    background: #fff;
+    padding: 30px;
+}
+
+.wrapper .input-data
+{
+    
+    margin-top: -15px;
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .input-data #UsernameInput
+{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+}
+
+.wrapper .input-data #PasswordInput
+{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+}
+
+.input-data #UsernameInput:focus ~ #Username,
+.input-data #UsernameInput:focus ~ #Username
+{
+    transform: translateY(-20px);
+    font-size: 13px;
+    color: #4158d0;
+}
+
+.input-data #PasswordInput:focus ~ #Password,
+.input-data #PasswordInput:focus ~ #Password
+{
+    transform: translateY(-20px);
+    font-size: 13px;
+    color: #4158d0;
+}
+
+
+.wrapper .input-data #Username
+{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.wrapper .input-data #Password
+{
+    position: absolute;
+    top: 75px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+#mainHeading
+{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 120px;
+    font-size: 50px;
+}
+
+#login
+{
+    background-color: rgb(107, 107, 107);
+    width: 200px;
+    padding: 2px 2px 2px 2px;
+    margin-top: 115px;
+    margin-left: 55px;
+}
+
+
